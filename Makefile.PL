@@ -22,5 +22,5 @@ requires (
 readme_from 'lib/Task/BeLike/JJNAPIORK.pm';
 auto_manifest;
 auto_install;
-githubmeta
+githubmeta;
 WriteAll;
