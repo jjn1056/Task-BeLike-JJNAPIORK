@@ -13,6 +13,5 @@ use_ok 'Module::Setup';
 use_ok 'App::Ack';
 use_ok 'App::local::lib::helper';
 use_ok 'Carp::REPL';
-use_ok 'App::Nopaste';
 
 done_testing();

@@ -1,8 +1,3 @@
-package Task::BeLike::JJNAPIORK;
-
-use 5.008008;
-our $VERSION = '0.01';
-
 =head1 NAME
 
 Task::BeLike::JJNAPIORK - Stuff I always use
@@ -110,7 +105,6 @@ Copyright 2010, John Napiorkowski
 This program is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
 
-=cut
 
-1;
+=cut
 

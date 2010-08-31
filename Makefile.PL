@@ -16,10 +16,9 @@ requires (
     'App::Ack' => '1.92',
     'App::local::lib::helper' => '0.02',
     'Carp::REPL' => '0.15',
-    'App::Nopaste' => '0.22',
 );
 
-readme_from 'lib/Task/BeLike/JJNAPIORK.pm';
+readme_pod_from 'lib/Task/BeLike/JJNAPIORK.pm';
 auto_manifest;
 auto_install;
 githubmeta;
