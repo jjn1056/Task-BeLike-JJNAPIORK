@@ -88,9 +88,9 @@ Awesome searching power
 
 Make it easier to use L<local::lib>
 
-=item L<Carp::REPL>
+=item L<Module::Install::ManifestSkip>
 
-Help with debugging
+Build a MANIFEST.SKIP file that is sane
 
 =back
 
