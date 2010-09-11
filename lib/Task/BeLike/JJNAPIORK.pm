@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008008;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 NAME
 
@@ -93,9 +93,9 @@ Awesome searching power
 
 Make it easier to use L<local::lib>
 
-=item L<Carp::REPL>
+=item L<Module::Install::ManifestSkip>
 
-Help with debugging
+Build a MANIFEST.SKIP file that is sane
 
 =back
 
