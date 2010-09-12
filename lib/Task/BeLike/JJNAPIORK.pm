@@ -24,7 +24,7 @@ that wants to contribute to a project I am working on.
 Typically when I start a new project, I build my C<Makefile.PL> around the
 L<Module::Install> ecosystem.  I also use L<App::cpanminus> and a few other bits
 to make using L<local::lib> and git easier.  This means before I can even get
-started (or a contributor started) we need some unnecessary ceremony.  The 
+started (or a contributor started) we need some unnecessary ceremony.  The
 C<Makefile.PL> is great for managing the dependencies of a project, but it
 can't recursively manage its own dependencies, which means that authors (NOT
 installers) will always need to install a few bits to get started working.  My
@@ -32,13 +32,13 @@ goal here is to reduce that effort, at least for my current workflow.  Hopefully
 you will catch some useful ideas that work for you.
 
 Unlike most of the distributions in the Task::BeLike namespace, this is not a
-catchall of everything I love to use.  This is a pretty minimum list, most of 
-which have no or few dependencies with a very high rate of installation 
+catchall of everything I love to use.  This is a pretty minimum list, most of
+which have no or few dependencies with a very high rate of installation
 success.  So if you want to be like me when starting a new project, this is it!
 
 Typically I assume a locally installed perl (which is probably installed via
 L<App::perlbrew>) and nothing else when starting a project.  I then bootstrap a
-L<local::lib> managed local directory of the basic dependencies and go from 
+L<local::lib> managed local directory of the basic dependencies and go from
 there.  I use the online version of L<App::cpanminus> to get this rolling:
 
   curl http://cpanmin.us/ -L | perl - -l ~/mylocal Task::BeLike::JJNAPIORK
@@ -48,7 +48,7 @@ find the L<local::lib> which L<App::cpanminus> has created:
 
   ~/mylocal/bin/localenv bash
 
-After that I will use the project C<Makefile.PL> to install project level 
+After that I will use the project C<Makefile.PL> to install project level
 dependencies, start a new project, etc.
 
 =head1 MODULES INSTALLED
@@ -81,6 +81,10 @@ Make and clean manifest files for me
 
 Make the readme file I am always forgetting to do.
 
+=item L<Module::Install::ManifestSkip>
+
+Start you off with a sane MANIFEST.SKIP file
+
 =item L<Module::Setup>
 
 For when I am too lazy to make my own project skeletons
@@ -92,10 +96,6 @@ Awesome searching power
 =item L<App::local::lib::helper>
 
 Make it easier to use L<local::lib>
-
-=item L<Module::Install::ManifestSkip>
-
-Build a MANIFEST.SKIP file that is sane
 
 =back
 
