@@ -12,12 +12,14 @@ requires (
     'Module::Install::AuthorTests' => '0.002',
     'Module::Install::GithubMeta' => '0.10',
     'Module::Install::AutoManifest' => '0.003',
-    'Module::Install::ReadmePodFromPod' => '0.12',
-    'Module::Install::ManifestSkip' => '0.10',
+    'Module::Install::ReadmePodFromPod' => '0.01',
+    'Module::Install::ReadmeFromPod' => '0.12',
+    'Module::Install::ManifestSkip' => '0.11',
     'Module::Setup' => '0.09',
     'App::local::lib::helper' => '0.02',
 );
 
+readme_from;
 manifest_skip;
 auto_manifest;
 auto_install;
