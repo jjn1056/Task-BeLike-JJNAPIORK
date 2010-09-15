@@ -57,41 +57,45 @@ This L<Task> module installs the following
 
 =over 4
 
+=item L<App::Ack>
+
+Awesome searching power.
+
 =item L<App::cpanminus>
 
 Easier to install CPAN modules
 
 =item L<Module::Install>
 
-Easier to manage your project dependencies
+Easier to manage your project dependencies.
 
 =item L<Module::Install::AuthorTests>
 
-Mark some tests as author only
+Mark some tests as author only.
 
 =item L<Module::Install::GithubMeta>
 
-Add github repository stuff
+Add github repository stuff.
 
 =item L<Module::Install::AutoManifest>
 
-Make and clean manifest files for me
+Make and clean manifest files for me.
 
 =item L<Module::Install::ReadmePodFromPod>
 
 Make the readme file I am always forgetting to do.
 
+=item L<Module::Install::ReadmeFromPod>
+
+For when a text only README is desired.
+
 =item L<Module::Install::ManifestSkip>
 
-Start you off with a sane MANIFEST.SKIP file
+Start you off with a sane MANIFEST.SKIP file.
 
 =item L<Module::Setup>
 
 For when I am too lazy to make my own project skeletons
-
-=item L<App::Ack>
-
-Awesome searching power
 
 =item L<App::local::lib::helper>
 

@@ -1,11 +1,12 @@
 This file documents the revision history for Perl Application 'Task::BeLike::JJNAPIORK'.
 
-0.03 2010-09-11
+0.03 2010-09-15
     - took out CARP::REPL since it's a debugging tool, not something that fits
       the role of this module which is intended to be a sort of personal SDK,
       not a catchall of everything I use all the time.
     - Add Module::Install::ManifestSkip since I hate having to copy this around
       and have it clutter up my repo.
+    - Added MI:ReadmeFromPOD since sometimes we want a text only README.
 
 0.02 2010-08-31
     - fixed bad tests
