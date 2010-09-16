@@ -49,32 +49,35 @@ USAGE
 MODULES INSTALLED
     This Task module installs the following
 
+    App::Ack
+        Awesome searching power.
+
     App::cpanminus
         Easier to install CPAN modules
 
     Module::Install
-        Easier to manage your project dependencies
+        Easier to manage your project dependencies.
 
     Module::Install::AuthorTests
-        Mark some tests as author only
+        Mark some tests as author only.
 
     Module::Install::GithubMeta
-        Add github repository stuff
+        Add github repository stuff.
 
     Module::Install::AutoManifest
-        Make and clean manifest files for me
+        Make and clean manifest files for me.
 
     Module::Install::ReadmePodFromPod
         Make the readme file I am always forgetting to do.
 
+    Module::Install::ReadmeFromPod
+        For when a text only README is desired.
+
     Module::Install::ManifestSkip
-        Start you off with a sane MANIFEST.SKIP file
+        Start you off with a sane MANIFEST.SKIP file.
 
     Module::Setup
         For when I am too lazy to make my own project skeletons
-
-    App::Ack
-        Awesome searching power
 
     App::local::lib::helper
         Make it easier to use local::lib

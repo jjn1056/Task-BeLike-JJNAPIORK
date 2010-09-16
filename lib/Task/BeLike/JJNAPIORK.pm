@@ -15,9 +15,15 @@ Task::BeLike::JJNAPIORK - Stuff I always use
 
 When I bootstrap a new project, or when someone wants to contribute to one of
 my projects, there's a handful of modules you need which are not listed in the
-C<Makefile.PL>.  This module is intended to bundle those together so as to make
+C<Makefile.PL>.  Think of these as 'meta' projects files, or like a SDK for 
+working on CPAN modules.  They are not things someone who is just using the
+module needs, just authors.
+
+This module is intended to bundle those together so as to make
 it faster for me to bootstrap a new project and to make it easier for anyone
-that wants to contribute to a project I am working on.
+that wants to contribute to a project I am working on.  Also, its one less
+thing I need to do when getting started on a new project or reviving an old
+one.
 
 =head1 USAGE
 
