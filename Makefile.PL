@@ -2,7 +2,6 @@
 
 use strict;
 use warnings;
-
 use inc::Module::Install 1.00;
 all_from 'lib/Task/BeLike/JJNAPIORK.pm';
 requires (
