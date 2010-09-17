@@ -71,6 +71,14 @@ Awesome searching power.
 
 Easier to install CPAN modules
 
+=item L<App::local::lib::helper>
+
+Make it easier to use L<local::lib>
+
+=item L<Module::Setup>
+
+For when I am too lazy to make my own project skeletons
+
 =item L<Module::Install>
 
 Easier to manage your project dependencies.
@@ -106,14 +114,6 @@ Set or guess a reasonable homepage for your module.
 =item L<Module::Install::AutoLicense>
 
 Create a lICENSE file it it is missing.
-
-=item L<Module::Setup>
-
-For when I am too lazy to make my own project skeletons
-
-=item L<App::local::lib::helper>
-
-Make it easier to use L<local::lib>
 
 =back
 

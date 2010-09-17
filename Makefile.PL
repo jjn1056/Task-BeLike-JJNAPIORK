@@ -8,6 +8,8 @@ all_from 'lib/Task/BeLike/JJNAPIORK.pm';
 requires (
     'App::Ack' => '1.92',
     'App::cpanminus' => '1.0012',
+    'App::local::lib::helper' => '0.02',
+    'Module::Setup' => '0.09',
     'Module::Install' => '1.00',
     'Module::Install::AuthorTests' => '0.002',
     'Module::Install::Repository' => '0.06',
@@ -17,8 +19,6 @@ requires (
     'Module::Install::ManifestSkip' => '0.12',
     'Module::Install::Homepage' => '0.01',
     'Module::Install::AutoLicense' => '0.08',
-    'Module::Setup' => '0.09',
-    'App::local::lib::helper' => '0.02',
 );
 
 readme_from;
@@ -26,6 +26,6 @@ manifest_skip;
 auto_set_repository;
 auto_set_homepage;
 auto_manifest;
-auto_install;
 auto_license;
+auto_install;
 WriteAll;
