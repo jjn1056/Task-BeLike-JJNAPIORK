@@ -72,6 +72,10 @@ Make it easier to use [local::lib](http://search.cpan.org/perldoc?local::lib)
 
 For when I am too lazy to make my own project skeletons
 
+- [Module::Setup::Flavor::JJNAPIORK](http://search.cpan.org/perldoc?Module::Setup::Flavor::JJNAPIORK)
+
+If I am using [Module::Setup](http://search.cpan.org/perldoc?Module::Setup) I want a flavor that makes sense to me.
+
 - [Module::Install](http://search.cpan.org/perldoc?Module::Install)
 
 Easier to manage your project dependencies.
