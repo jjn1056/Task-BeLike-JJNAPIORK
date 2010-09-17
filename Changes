@@ -1,5 +1,8 @@
 This file documents the revision history for Perl Application 'Task::BeLike::JJNAPIORK'.
 
+0.04 2010-09-17
+    - 
+
 0.03 2010-09-15
     - took out CARP::REPL since it's a debugging tool, not something that fits
       the role of this module which is intended to be a sort of personal SDK,

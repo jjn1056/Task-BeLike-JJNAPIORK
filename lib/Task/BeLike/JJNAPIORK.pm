@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008008;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 NAME
 
@@ -79,9 +79,9 @@ Easier to manage your project dependencies.
 
 Mark some tests as author only.
 
-=item L<Module::Install::GithubMeta>
+=item L<Module::Install::Repository>
 
-Add github repository stuff.
+Add source control repository information to META
 
 =item L<Module::Install::AutoManifest>
 
@@ -98,6 +98,14 @@ For when a text only README is desired.
 =item L<Module::Install::ManifestSkip>
 
 Start you off with a sane MANIFEST.SKIP file.
+
+=item L<Module::Install::Homepage>
+
+Set or guess a reasonable homepage for your module.
+
+=item L<Module::Install::AutoLicense>
+
+Create a lICENSE file it it is missing.
 
 =item L<Module::Setup>
 

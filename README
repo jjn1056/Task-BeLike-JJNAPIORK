@@ -81,6 +81,12 @@ MODULES INSTALLED
     Module::Install::ManifestSkip
         Start you off with a sane MANIFEST.SKIP file.
 
+    Module::Install::Homepage
+        Set or guess a reasonable homepage for your module.
+
+    Module::Install::AutoLicense
+        Create a lICENSE file it it is missing.
+
     Module::Setup
         For when I am too lazy to make my own project skeletons
 
