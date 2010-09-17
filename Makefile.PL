@@ -13,15 +13,15 @@ requires (
     'Module::Install::AuthorTests' => '0.002',
     'Module::Install::Repository' => '0.06',
     'Module::Install::AutoManifest' => '0.003',
-    'Module::Install::ReadmePodFromPod' => '0.01',
+    'Module::Install::ReadmeMarkdownFromPod' => '0.03',
     'Module::Install::ReadmeFromPod' => '0.12',
     'Module::Install::ManifestSkip' => '0.12',
     'Module::Install::Homepage' => '0.01',
     'Module::Install::AutoLicense' => '0.08',
 );
 
-readme_from;
 manifest_skip;
+readme_markdown_from_pod;
 auto_set_repository;
 auto_set_homepage;
 auto_manifest;

@@ -95,9 +95,11 @@ Add source control repository information to META
 
 Make and clean manifest files for me.
 
-=item L<Module::Install::ReadmePodFromPod>
+=item L<Module::Install::ReadmeMarkdownFromPod>
 
-Make the readme file I am always forgetting to do.
+Make the readme file I am always forgetting to do. Markdown has become
+popular since its very readable in a text view and if you are using Github
+it will get parsed and rendered very nicely.
 
 =item L<Module::Install::ReadmeFromPod>
 
