@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use inc::Module::Install 1.00;
-all_from 'lib/Task/BeLike/JJNAPIORK.pm';
+
 requires (
     'App::Ack' => '1.92',
     'App::cpanminus' => '1.0012',
@@ -20,11 +20,14 @@ requires (
     'Module::Install::AutoLicense' => '0.08',
 );
 
-manifest_skip;
+test_requires 'Test::More';
+
+all_from 'lib/Task/BeLike/JJNAPIORK.pm';
 readme_markdown_from_pod;
 auto_set_repository;
 auto_set_homepage;
 auto_manifest;
 auto_license;
 auto_install;
+manifest_skip;
 WriteAll;
