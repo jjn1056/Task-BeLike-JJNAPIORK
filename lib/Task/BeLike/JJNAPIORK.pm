@@ -79,6 +79,10 @@ Make it easier to use L<local::lib>
 
 For when I am too lazy to make my own project skeletons
 
+=item L<Module::Setup::Flavor::JJNAPIORK>
+
+If I am using L<Module::Setup> I want a flavor that makes sense to me.
+
 =item L<Module::Install>
 
 Easier to manage your project dependencies.

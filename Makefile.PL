@@ -9,6 +9,7 @@ requires (
     'App::cpanminus' => '1.0012',
     'App::local::lib::helper' => '0.02',
     'Module::Setup' => '0.09',
+    'Module::Setup::Flavor::JJNAPIORK' => '0.01',
     'Module::Install' => '1.00',
     'Module::Install::AuthorTests' => '0.002',
     'Module::Install::Repository' => '0.06',

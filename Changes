@@ -4,6 +4,7 @@ This file documents the revision history for Perl Application 'Task::BeLike::JJN
     - Swapped MI::Github with MI::Repository for non github based projects.
     - Swapped MI::ReadmePodFromPod to MI::ReadMeMarkdownFromPod.
     - Added MI::Homepage and MI::License for more automation.
+    - Added a Module::Setup custom flavor (the one I like :) )
     - Changed Makefile.PL to reflect and test above.  Addes docs as well.
 
 0.03 2010-09-15
