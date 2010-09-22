@@ -1,6 +1,6 @@
 # NAME
 
-Task::BeLike::JJNAPIORK - Stuff I always use
+Task::BeLike::JJNAPIORK - Stuff I use to start or maintain a CPAN project
 
 # SYNOPSIS
 
@@ -55,10 +55,6 @@ dependencies, start a new project, etc.
 # MODULES INSTALLED
 
 This [Task](http://search.cpan.org/perldoc?Task) module installs the following
-
-- [App::Ack](http://search.cpan.org/perldoc?App::Ack)
-
-Awesome searching power.
 
 - [App::cpanminus](http://search.cpan.org/perldoc?App::cpanminus)
 
