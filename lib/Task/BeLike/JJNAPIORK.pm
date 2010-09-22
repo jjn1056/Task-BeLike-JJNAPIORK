@@ -1,11 +1,11 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008008;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 NAME
 
-Task::BeLike::JJNAPIORK - Stuff I always use
+Task::BeLike::JJNAPIORK - Stuff I use to start or maintain a CPAN project
 
 =head1 SYNOPSIS
 
@@ -62,10 +62,6 @@ dependencies, start a new project, etc.
 This L<Task> module installs the following
 
 =over 4
-
-=item L<App::Ack>
-
-Awesome searching power.
 
 =item L<App::cpanminus>
 
