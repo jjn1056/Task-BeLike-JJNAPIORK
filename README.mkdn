@@ -32,7 +32,8 @@ installers) will always need to install a few bits to get started working.  My
 goal here is to reduce that effort, at least for my current workflow.  Hopefully
 you will catch some useful ideas that work for you.
 
-Unlike most of the distributions in the Task::BeLike namespace, this is not a
+Unlike most of the distributions in the Task::BeLike namespace (see: 
+<http://search.cpan.org/search?query=Task::BeLike>), this is not a
 catchall of everything I love to use.  This is a pretty minimum list, most of
 which have no or few dependencies with a very high rate of installation
 success.  So if you want to be like me when starting a new project, this is it!
