@@ -5,8 +5,8 @@ use warnings FATAL => 'all';
 use inc::Module::Install;
 
 requires (
-  'App::cpanminus' => '1.0014',
-  'App::local::lib::helper' => '0.02',
+  'App::cpanminus' => '1.1005',
+  'App::local::lib::helper' => '0.03',
   'Module::Setup' => '0.09',
   'Module::Setup::Flavor::JJNAPIORK' => '0.01',
   'Module::Install' => '1.00',
@@ -18,7 +18,7 @@ requires (
   'Module::Install::AutoLicense' => '0.08',
 );
 
-test_requires 'Test::More';
+test_requires 'Test::More' => '0.96';
 all_from 'lib/Task/BeLike/JJNAPIORK.pm';
 require 'maint/Makefile.PL.include'
   if $Module::Install::AUTHOR;
