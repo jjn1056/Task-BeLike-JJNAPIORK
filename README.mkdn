@@ -43,15 +43,21 @@ Typically I assume a locally installed perl (which is probably installed via
 [local::lib](http://search.cpan.org/perldoc?local::lib) managed local directory of the basic dependencies and go from
 there.  I use the online version of [App::cpanminus](http://search.cpan.org/perldoc?App::cpanminus) to get this rolling:
 
-  curl http://cpanmin.us/ -L | perl - -l ~/mylocal Task::BeLike::JJNAPIORK
+    curl http://cpanmin.us/ -L | perl - -l ~/mylocal Task::BeLike::JJNAPIORK
 
 After that, I open a command interpreter who's environment has been fixed up to
 find the [local::lib](http://search.cpan.org/perldoc?local::lib) which [App::cpanminus](http://search.cpan.org/perldoc?App::cpanminus) has created:
 
-  ~/mylocal/bin/localenv bash
+    ~/mylocal/bin/localenv bash
 
-After that I will use the project `Makefile.PL` to install project level
-dependencies, start a new project, etc.
+For more info on the `localenv` command, see [App::local::lib::helper](http://search.cpan.org/perldoc?App::local::lib::helper) and
+the documentation for [local::lib](http://search.cpan.org/perldoc?local::lib).
+
+Lastly, I will use the project `Makefile.PL` to install project level
+dependencies, start a new project, etc.  It is considered a best practice to 
+always build your application as though it was destined for CPAN, even if you
+are building an internal or proprietary application.  For help creating a basic
+project skeleton, see [Module::Setup](http://search.cpan.org/perldoc?Module::Setup) and [Module::Setup::Flavor::JJNAPIORK](http://search.cpan.org/perldoc?Module::Setup::Flavor::JJNAPIORK).
 
 # MODULES INSTALLED
 

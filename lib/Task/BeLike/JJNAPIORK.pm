@@ -48,15 +48,21 @@ L<App::perlbrew>) and nothing else when starting a project.  I then bootstrap a
 L<local::lib> managed local directory of the basic dependencies and go from
 there.  I use the online version of L<App::cpanminus> to get this rolling:
 
-  curl http://cpanmin.us/ -L | perl - -l ~/mylocal Task::BeLike::JJNAPIORK
+    curl http://cpanmin.us/ -L | perl - -l ~/mylocal Task::BeLike::JJNAPIORK
 
 After that, I open a command interpreter who's environment has been fixed up to
 find the L<local::lib> which L<App::cpanminus> has created:
 
-  ~/mylocal/bin/localenv bash
+    ~/mylocal/bin/localenv bash
 
-After that I will use the project C<Makefile.PL> to install project level
-dependencies, start a new project, etc.
+For more info on the C<localenv> command, see L<App::local::lib::helper> and
+the documentation for L<local::lib>.
+
+Lastly, I will use the project C<Makefile.PL> to install project level
+dependencies, start a new project, etc.  It is considered a best practice to 
+always build your application as though it was destined for CPAN, even if you
+are building an internal or proprietary application.  For help creating a basic
+project skeleton, see L<Module::Setup> and L<Module::Setup::Flavor::JJNAPIORK>.
 
 =head1 MODULES INSTALLED
 
