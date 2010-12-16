@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008008;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 =head1 NAME
 
@@ -84,10 +84,6 @@ If I am using L<Module::Setup> I want a flavor that makes sense to me.
 
 Easier to manage your project dependencies.
 
-=item L<Module::Install::AuthorTests>
-
-Mark some tests as author only.
-
 =item L<Module::Install::Repository>
 
 Add source control repository information to META
@@ -101,10 +97,6 @@ Make and clean manifest files for me.
 Make the readme file I am always forgetting to do. Markdown has become
 popular since its very readable in a text view and if you are using Github
 it will get parsed and rendered very nicely.
-
-=item L<Module::Install::ReadmeFromPod>
-
-For when a text only README is desired.
 
 =item L<Module::Install::ManifestSkip>
 

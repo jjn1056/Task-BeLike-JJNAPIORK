@@ -1,7 +1,6 @@
 use strict;
 use warnings;
-use Test::More;
+use Test::More tests => 1;
 
-use_ok 'Task::BeLike::JJNAPIORK';
+BEGIN { use_ok 'Task::BeLike::JJNAPIORK' }
 
-done_testing();

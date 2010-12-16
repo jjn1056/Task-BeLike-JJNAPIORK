@@ -77,10 +77,6 @@ If I am using [Module::Setup](http://search.cpan.org/perldoc?Module::Setup) I wa
 
 Easier to manage your project dependencies.
 
-- [Module::Install::AuthorTests](http://search.cpan.org/perldoc?Module::Install::AuthorTests)
-
-Mark some tests as author only.
-
 - [Module::Install::Repository](http://search.cpan.org/perldoc?Module::Install::Repository)
 
 Add source control repository information to META
@@ -94,10 +90,6 @@ Make and clean manifest files for me.
 Make the readme file I am always forgetting to do. Markdown has become
 popular since its very readable in a text view and if you are using Github
 it will get parsed and rendered very nicely.
-
-- [Module::Install::ReadmeFromPod](http://search.cpan.org/perldoc?Module::Install::ReadmeFromPod)
-
-For when a text only README is desired.
 
 - [Module::Install::ManifestSkip](http://search.cpan.org/perldoc?Module::Install::ManifestSkip)
 
