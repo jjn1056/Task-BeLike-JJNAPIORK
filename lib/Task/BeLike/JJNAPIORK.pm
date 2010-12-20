@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008008;
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 =head1 NAME
 
@@ -14,7 +14,7 @@ Task::BeLike::JJNAPIORK - Stuff I use to start or maintain a CPAN project
 =head1 DESCRIPTION
 
 When I bootstrap a new project, or when someone wants to contribute to one of
-my projects, there's a handful of modules you need which are not listed in the
+my projects, there's a handful of modules needed which are not listed in the
 C<Makefile.PL>.  Think of these as 'meta' projects files, or like a SDK for 
 working on CPAN modules.  They are not things someone who is just using the
 module needs, just authors.

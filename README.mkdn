@@ -9,7 +9,7 @@ Task::BeLike::JJNAPIORK - Stuff I use to start or maintain a CPAN project
 # DESCRIPTION
 
 When I bootstrap a new project, or when someone wants to contribute to one of
-my projects, there's a handful of modules you need which are not listed in the
+my projects, there's a handful of modules needed which are not listed in the
 `Makefile.PL`.  Think of these as 'meta' projects files, or like a SDK for 
 working on CPAN modules.  They are not things someone who is just using the
 module needs, just authors.
