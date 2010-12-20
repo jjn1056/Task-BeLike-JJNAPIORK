@@ -2,7 +2,7 @@ BEGIN {
   my @modules = qw(
     ReadmeMarkdownFromPod
 	ManifestSkip
-	AutoLicenseXX
+	AutoLicense
 	Repository
 	Homepage
 	AutoManifest
