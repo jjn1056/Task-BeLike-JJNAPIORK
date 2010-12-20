@@ -8,7 +8,7 @@ requires (
   'App::cpanminus' => '1.1005',
   'App::local::lib::helper' => '0.03',
   'Module::Setup' => '0.09',
-  'Module::Setup::Flavor::JJNAPIORK' => '0.01',
+  'Module::Setup::Flavor::JJNAPIORK' => '0.03',
   'Module::Install' => '1.00',
   'Module::Install::Repository' => '0.06',
   'Module::Install::AutoManifest' => '0.003',
