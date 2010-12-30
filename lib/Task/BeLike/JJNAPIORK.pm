@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
-use 5.008008;
-our $VERSION = '0.07';
+use 5.008005;
+our $VERSION = '0.08';
 
 =head1 NAME
 
