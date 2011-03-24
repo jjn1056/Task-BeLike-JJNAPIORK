@@ -1,7 +1,7 @@
 package Task::BeLike::JJNAPIORK;
 
 use 5.008005;
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 =head1 NAME
 
@@ -39,7 +39,7 @@ you will catch some useful ideas that work for you.
 
 Unlike most of the distributions in the Task::BeLike namespace (see: 
 L<http://search.cpan.org/search?query=Task::BeLike>), this is not a
-catchall of everything I love to use.  This is a pretty minimum list, most of
+catchall of everything I love to use.  This is a pretty minimum list, most 
 which have no or few dependencies with a very high rate of installation
 success.  So if you want to be like me when starting a new project, this is it!
 
@@ -124,7 +124,7 @@ John Napiorkowski C< <<jjnapiork@cpan.org>> >
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2010, John Napiorkowski
+Copyright 2011, John Napiorkowski
 
 This program is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.

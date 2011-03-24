@@ -1,5 +1,8 @@
 This file documents the revision history for Perl Application 'Task::BeLike::JJNAPIORK'.
 
+0.09 2011-03-24
+    - New copyright date and minor increases to the dependency versions
+
 0.08 2010-12-30
     - Decreased Perl version requirement to 5.8.5 since it seems all the
       dependencies work at least that far back
